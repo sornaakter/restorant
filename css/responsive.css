@@ -1,0 +1,26 @@
+@media(max-width: 1199px){
+	.banner ul li a {
+    padding: 5px 20px;
+	}
+	.botton {
+    padding: 5px 15px;
+    font-size: 10px;
+    margin-left: 10px;
+	}
+	.order h1 {
+    padding-top: 40px;
+	}
+	.order {
+    height: 195px;
+	}
+	.footer-section ul li a {
+    padding: 5px 10px;
+	}
+	.footer-section p {
+    font-size: 14px;
+	}
+
+}
+@media(max-width: 991px){}
+@media(max-width: 767px){}
+@media(max-width: 576px){}

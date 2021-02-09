@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root{
+	--orange:#e59205;
+	--blue:#6e7498;
+	--transition: all .3s ease-in-out;
+	--font-family: 'Roboto', sans-serif;
+}
+
+.banner-section{
+    padding: 80px 0;
+    background:url(../images/banner.jpg);
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+}
+.overlay{
+	position: absolute;
+	background: #00000094;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.banner{}
+.banner ul{}
+.banner ul li{}
+.banner ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 30px;
+    transition:var(--transition);
+}
+.banner ul li a:hover{
+    text-decoration: none;
+    color:var(--orange);
+   
+}
+.asha{
+	 font-size: 50px;
+	 color: var(--orange)!important;
+	 transition:var(--transition);
+}
+.asha:hover{
+	color: #fff !important;
+}
+.button{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: 45%;
+    transition:var(--transition);
+    font-weight: 700;
+}
+.button:hover{
+	color: var(--orange);
+	background: #fff;
+}
+.banner1 h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 100px;
+    font-family: initial;
+}
+.banner1 p{
+    color: #fff;
+    width: 510px;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.banner1 strong{
+    color: var(--orange);
+}
+.loram-section{
+	padding: 80px 0;
+}
+.Loram{
+    color: var(--blue);
+}
+.Loram span{
+    display: block;
+    background: var(--orange);
+    width: 50px;
+    height: 3px;
+}
+.Loram h2{
+    font-weight: 900;
+    font-family: initial;
+    font-size: 55px;
+}
+.Loram p{
+    width: 550px;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.Loram ul{}
+.Loram ul li{}
+.Loram ul li a{
+    color: var(--blue);
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: var(--transition);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.Loram ul li a:hover{
+    background: var(--orange);
+    color: #fff;
+    text-decoration: none;
+}
+.more-section{
+    padding: 60px 0;
+}
+.more{}
+.more img{}
+.botton{
+	 color:var(--blue);
+	 text-decoration: none;
+	 border: 2px solid;
+	 padding: 5px 15px;
+	 text-transform: uppercase;
+	 border-radius: 5px;
+	 transition:var(--transition);
+	 font-size: 14px;
+	 margin-left: 35px;
+	 font-weight: 700;
+}
+.botton:hover{
+	background: var(--orange);
+	color: #fff;
+}
+.name-section{
+	padding: 40px 0;
+}
+.name{
+}
+.name h3{
+    font-weight: 600;
+}
+.name p{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.order-section{
+	padding: 50px 0;
+}
+.order{
+    background: var(--orange);
+    height: 362px;
+    text-align: center;
+}
+.order h1{
+    color: #fff;
+    padding-top: 75px;
+    font-family: initial;
+    font-weight: 800;
+}
+.order-img {}
+.order-img img{}
+.dollar-section{
+    padding: 30px 0;
+    text-align: center;
+}
+.dollar{
+    margin: 50px 0;
+    color: var(--blue);
+}
+.dollar img{}
+.dollar h3{
+    font-size: 25px;
+    margin: 25px 0;
+}
+.dollar p{
+    width: 345px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.man-section{
+    padding: 30px 0;
+    background: url(../images/man.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.man{
+    margin-top: 160px;
+    color: #fff;
+}
+.man h2{
+    font-size: 50px;
+    font-family: initial;
+    font-weight: 900;
+}
+.man span{
+}
+.botton2{
+
+text-decoration: none;
+
+border: 2px solid var(--orange);
+
+padding: 5px 15px;
+
+text-transform: uppercase;
+
+border-radius: 5px;
+
+transition:var(--transition);
+
+font-size: 14px;
+
+margin-left: 35px;
+
+font-weight: 700;
+
+color: #fff;
+
+background: var(--orange);
+}
+.botton2:hover{
+    color: var(--orange);
+    background: #fff;
+}
+
+input{
+    padding: 5px 60px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background: #33333338;
+    color: #fff !important;
+}
+.footer-section{
+    padding: 40px 0;
+}
+.footer-section p {}
+.footer-section ul {}
+.footer-section ul li{}
+.footer-section ul li a{
+	 color: #3339;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 padding: 5px 30px;
+	 transition:var(--transition);
+}
+
+.footer-section ul li a:hover{
+	 text-decoration: none;
+    color:var(--orange);
+}
